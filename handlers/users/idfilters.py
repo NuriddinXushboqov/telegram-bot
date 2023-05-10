@@ -3,8 +3,9 @@ from aiogram.dispatcher import filters
 
 from loader import dp
 
-SUPERUSERS = [2007427, 32323412]
-QORAROYXAT = [2121223, 3434343]
+SUPERUSERS = [6271507272, 32323412]
+BLACKLIST = [2121223, 3434343]
+
 
 # @dp.message_handler(filters.IDFilter(chat_id=SUPERUSERS))
 @dp.message_handler(chat_id=SUPERUSERS, text='secret')
